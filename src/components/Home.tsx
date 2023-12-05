@@ -5,13 +5,13 @@ const Login: React.FC = () => {
   
   return (
     <div className="container">
-      <div className="d-flex justify-content-between">
+      <div className="d-flex flex-wrap justify-content-between">
         <div>
           <h4 className="title">Form name</h4>
           <p className="para">Created by Amit on 23 Nov 2023</p>
         </div>
         <div>
-          <div className="d-flex  justify-content-between">
+          <div className="d-flex flex-wrap  justify-content-between">
             <h6 className="mx-2 shadow-lg p-2  bg-body rounded">
               <FontAwesomeIcon icon={faCog} className="icon" /> Option
             </h6>
@@ -34,7 +34,7 @@ const Login: React.FC = () => {
           <span className="mx-2">change</span>
         </p>
       </div>
-      <div className="d-flex col-lg-6 justify-content-between">
+      <div className="d-flex flex-wrap col-lg-6 col-md-8 col-sm-12 justify-content-between">
         <div className="shadow p-3 ">
           <h5>Responses</h5>
           <h5 className="text-center pt-3">20</h5>
@@ -51,14 +51,14 @@ const Login: React.FC = () => {
       </div>
       <div className="border-top border-dark mt-3">
         <h4 className="mt-3">Responses</h4>
-        <div className="d-flex  mt-2 p-3 shadow-lg rounded">
-          <h6>Lead name</h6>
+        <div className="d-flex flex-wrap  mt-2 p-3 shadow-lg rounded">
+          <h6 className="action">Lead name</h6>
           <h6 className="action">Actions</h6>
           <h6 className="action">Assigned to</h6>
           <h6 className="action">Created at</h6>
           <h6 className="action">Last activity</h6>
         </div>
-        <div className="d-flex justify-content-between mt-2 p-4 shadow-lg rounded">
+        <div className="d-flex flex-wrap justify-content-between mt-2 p-4 shadow-lg rounded">
           <h6>Lead name 1</h6>
           <div>
             <FontAwesomeIcon
@@ -78,7 +78,7 @@ const Login: React.FC = () => {
           <h6>23rd Nov 2023 06:50 PM</h6>
           <h6>Call task created 2 hours ago</h6>
         </div>
-        <div className="d-flex justify-content-between mt-2 p-4 shadow-lg rounded">
+        <div className="d-flex flex-wrap justify-content-between mt-2 p-4 shadow-lg rounded">
           <h6>Lead name 2</h6>
           <div>
             <FontAwesomeIcon

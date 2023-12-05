@@ -11,59 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.title{
+.title {
   color: #000;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .icon {
   width: 21px;
   color: #3faefd;
 }
-.pub{
+.pub {
   float: right;
 }
-.para{
-  color: rgba(0, 0, 0, 0.50);
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+.para {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-span{
+span {
   color: #3faefd;
-
 }
 
-h5{
+h5 {
   color: #0000;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-h4{
+h4 {
   color: #000000;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-.icon-1{
-  background:#0397FED1;
-  color: #ffffff; 
+.icon-1 {
+  background: #0397fed1;
+  color: #ffffff;
 }
-.icon-2{
- background:#FFAD01;
-  color: #ffffff; 
+.icon-2 {
+  background: #ffad01;
+  color: #ffffff;
 }
-.icon-3{
- background:#FF474791;
-  color: #000000
+.icon-3 {
+  background: #ff474791;
+  color: #000000;
 }
-.action{
+.action:not(:first-child) {
   margin-left: 140px;
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 22px;
+  }
+
+  .pub {
+    float: right;
+  }
+  .para {
+    font-size: 14px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+  h6 {
+    font-size: 14px;
+  }
+ .action:not(:first-child) {
+  margin-left: 20px;
+}
 }
