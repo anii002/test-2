@@ -60,11 +60,18 @@ h4 {
   color: #ffffff;
 }
 .icon-3 {
-  background: #ff474791;
+  background:#4CB050;
+  color: #ffffff;
+}
+
+.icon-4{
+
+
+   background: #ff474791;
   color: #000000;
 }
 .action:not(:first-child) {
-  margin-left: 140px;
+  margin-left: 145px;
 }
 
 @media (max-width: 767px) {
@@ -89,7 +96,11 @@ h4 {
   h6 {
     font-size: 14px;
   }
- .action:not(:first-child) {
+ 
+}
+
+@media (max-width: 560px) {
+.action:not(:first-child) {
   margin-left: 20px;
 }
 }

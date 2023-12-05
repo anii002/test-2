@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCog,faPen,faEye,faGlobe,faPhone,faEnvelope,faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faCog,faPen,faEye,faGlobe,faPhone,faEnvelope,faUpRightFromSquare, } from "@fortawesome/free-solid-svg-icons";
 
 const Login: React.FC = () => {
   
@@ -12,16 +12,16 @@ const Login: React.FC = () => {
         </div>
         <div>
           <div className="d-flex flex-wrap  justify-content-between">
-            <h6 className="mx-2 shadow-lg p-2  bg-body rounded">
+            <h6 className="mx-2 shadow-lg p-3  bg-body rounded">
               <FontAwesomeIcon icon={faCog} className="icon" /> Option
             </h6>
-            <h6 className="mx-2 shadow-lg p-2 bg-body rounded">
+            <h6 className="mx-2 shadow-lg p-3 bg-body rounded">
               <FontAwesomeIcon icon={faPen} className="icon" /> Edit form
             </h6>
-            <h6 className="mx-2 shadow-lg p-2 bg-body rounded">
+            <h6 className="mx-2 shadow-lg p-3 bg-body rounded">
               <FontAwesomeIcon icon={faEye} className="icon" /> Preview
             </h6>
-            <h6 className="mx-2 shadow-lg p-2 bg-body rounded">
+            <h6 className="mx-2 shadow-lg p-3 bg-body rounded">
               <FontAwesomeIcon icon={faGlobe} className="icon" /> Publish
             </h6>
           </div>
@@ -70,8 +70,12 @@ const Login: React.FC = () => {
               className="icon-2 rounded-circle p-2 mx-2"
             />
             <FontAwesomeIcon
+              icon={["fab", "whatsapp"]}
+              className="icon-3 rounded-circle p-2 mx-2"
+            />
+            <FontAwesomeIcon
               icon={faUpRightFromSquare}
-              className="icon-3 rounded-circle p-2"
+              className="icon-4 rounded-circle p-2"
             />
           </div>
           <h6>Chirag</h6>
@@ -90,8 +94,12 @@ const Login: React.FC = () => {
               className="icon-2 rounded-circle p-2 mx-2"
             />
             <FontAwesomeIcon
+              icon={["fab", "whatsapp"]}
+              className="icon-3 rounded-circle p-2 mx-2"
+            />
+            <FontAwesomeIcon
               icon={faUpRightFromSquare}
-              className="icon-3 rounded-circle p-2"
+              className="icon-4 rounded-circle p-2"
             />
           </div>
           <h6>Aniket</h6>
